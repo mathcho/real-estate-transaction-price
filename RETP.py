@@ -21,7 +21,7 @@ st.title("2024 수도권 실거래가 데이터")
 
 # Sidebar for selection with dynamic visibility and default "선택"
 with st.sidebar:
-    st.header("지역 선택택")
+    st.header("지역 선택(｡•̀ᴗ-)✧")
 
     # Default option for all levels
     default_option = "선택"
@@ -106,7 +106,7 @@ if level5 != default_option:
     filtered_real_estate = filtered_real_estate[filtered_real_estate['5차 구분'] == level5]
 
 # Display filters and sliders
-st.markdown("### 표시할 정보 선택")
+st.markdown("### ( ͡͡° ͜ ʖ ͡ °)표시할 정보 선택")
 
 subjects = {
     "전용면적(㎡)": {"min": 0, "step": 0.1, "type": float},
@@ -197,4 +197,4 @@ if level3 != default_option:
 
 folium_static(selection_map)
 
-st.write("맵의 중심은 선택된 데이터를 기반으로 설정됩니다.")
+st.write("맵의 중심은 선택된 데이터를 기반으로 설정됩니다.( ͡ᵔ ͜ʖ ͡ᵔ )")
