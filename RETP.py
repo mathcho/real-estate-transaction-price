@@ -18,7 +18,7 @@ subway_data.dropna(subset=['위도', '경도'], inplace=True)
 
 # Streamlit UI
 st.title("2024 수도권 실거래가 데이터")
-st.write("다세대, 연립(빌라)에 대한 정보만 제공합니다.")
+st.write("빌라(다세대, 연립)에 대한 정보만 제공합니다.")
 
 # Sidebar for selection with dynamic visibility and default "선택"
 with st.sidebar:
