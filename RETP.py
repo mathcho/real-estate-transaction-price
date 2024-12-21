@@ -197,4 +197,4 @@ if level3 != default_option:
 
 folium_static(selection_map)
 
-st.write("맵의 중심은 선택된 데이터를 기반으로 설정됩니다.( ͡ᵔ ͜ʖ ͡ᵔ )")
+st.write("맵의 중심은 선택된 데이터를 기반으로 설정됩니다.ପ(๑•ᴗ•๑)ଓ")
