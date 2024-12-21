@@ -6,9 +6,9 @@ from streamlit_folium import folium_static
 from geopy.distance import geodesic
 
 # Load the datasets
-real_estate_data = pd.read_csv('G:/내 드라이브/경매지도/최종/2024 수도권 연립 다세대 실거래가.csv')
-municipal_data = pd.read_csv('G:/내 드라이브/경매지도/최종/2024 수도권 동사무소주소.csv')
-subway_data = pd.read_csv('G:/내 드라이브/경매지도/최종/수도권 지하철 위치.csv')
+real_estate_data = pd.read_csv('2024 수도권 연립 다세대 실거래가.csv')
+municipal_data = pd.read_csv('2024 수도권 동사무소주소.csv')
+subway_data = pd.read_csv('수도권 지하철 위치.csv')
 
 # Preprocessing
 real_estate_data.rename(columns={'Latitude': '위도', 'Longitude': '경도'}, inplace=True)
